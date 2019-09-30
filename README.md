@@ -26,6 +26,7 @@ docker run -it -p 8000:8000 -v <HOST PATH TO THE uaa.yml>:/etc/uaa.yml puaa
 ### Get test client token
 ```
 curl -sS http://localhost:8000/oauth/token -u test:test -d grant_type=client_credentials
+```
 
 ### Get a list of JWT keys
 ```
