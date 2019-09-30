@@ -1,5 +1,5 @@
 issuer:
-  uri: http://localhost:8080
+  uri: http://localhost:8000
 
 oauth:
   clients:
@@ -17,7 +17,7 @@ jwt:
      activeKeyId: key-id-1
      keys:
        key-id-1:
-         signingKey: |
+         signingKey: |-
            -----BEGIN RSA PRIVATE KEY-----
            MIIEowIBAAKCAQEA0m59l2u9iDnMbrXHfqkOrn2dVQ3vfBJqcDuFUK03d+1PZGbV
            lNCqnkpIJ8syFppW8ljnWweP7+LiWpRoz0I7fYb3d8TjhV86Y997Fl4DBrxgM6KT

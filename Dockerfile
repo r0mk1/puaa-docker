@@ -1,6 +1,6 @@
 FROM python:3-slim
 
-RUN pip install puaa==0.2.2
+RUN pip install puaa==0.3.2
 COPY uaa.yml /etc/uaa.yml
 
 EXPOSE 8000
