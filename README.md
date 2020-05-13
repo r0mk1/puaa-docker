@@ -5,7 +5,7 @@ Runs the test OAuth server with a pre-configured test client.
 
 See
   - https://gitlab.com/romk/puaa
-  - https://cloud.docker.com/repository/docker/romk/puaa
+  - https://hub.docker.com/r/romk/puaa
 
 
 ## Build
